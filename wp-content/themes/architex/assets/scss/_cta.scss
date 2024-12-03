@@ -1,0 +1,40 @@
+.cta-area {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    
+    h2 {
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 90px;
+        @media #{$xs} {
+            font-size: 45px;
+            line-height: 50px;
+        }
+        
+    }
+}
+
+
+// CTA # 02
+
+.cta-section {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    @media #{$xs}{
+        text-align: center;
+    }
+}
+
+
+.cta-section .section-title h2 br {
+    @media #{$xs}{
+        display: none;
+    }    
+  }
+

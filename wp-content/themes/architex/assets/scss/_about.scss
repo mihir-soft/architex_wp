@@ -1,0 +1,145 @@
+// About # 01
+
+.about-content-wrap {
+    max-width: calc(100% - 40px);
+    @media #{$xs} {
+        max-width: calc(100% - 0px);
+        text-align: center;
+    }
+}
+
+.about-content-wrap .theme-btn {
+    margin-top: 20px;
+}
+
+  
+// About # 03
+
+.about-img-wrapper {
+    max-width: calc(100% - 50px);
+    @media #{$xs} {
+        max-width: calc(100% - 0px);
+        text-align: center;
+    }
+}
+
+.progress-bar-area {
+    margin-top: 30px;
+}
+
+.about-content-wrapper{
+    @media #{$md} {
+        margin-top: 60px;
+    }
+
+    @media #{$xs} {
+        margin-top: 60px;
+    }
+    
+}
+
+// About Page 
+
+.about-author {
+    position: relative;
+    padding-left: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        width: 35px;
+        height: 2px;
+        background: #ddd;
+      }
+      p{
+        margin: 0;
+      }
+  }
+
+
+  /* About # 04 */
+
+#about-4{
+
+    .about-content-wrap {    
+        @media #{$md}{
+            margin-top: 120px;
+        }
+    
+        @media #{$xs}{
+            margin-top: 120px;
+            text-align: start;
+        }
+      }
+    
+    .about-content-wrap {
+        padding-left: 20px;
+    }
+    
+    .about-list-item {
+        margin-top: 30px;
+        @media #{$lg}{
+            margin-top: 15px;
+        }
+        ul li {
+            display: inline-block;
+            width: 45%;
+            margin-right: 18px;
+            margin-bottom: 15px;
+            @media #{$lg}{
+                margin-bottom: 10px;
+            }
+            @media #{$xs}{
+                width: 100%;
+            }
+        }
+        i {
+            color: $primary_color;
+            margin-right: 15px;
+        }
+    }
+    
+    .about-img-wrap {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .image-one {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 70%;
+        @media #{$xs}{
+            width: 80%;
+        }
+    }
+    
+    .image-two {
+        position: absolute;
+        bottom: -60px;
+        right: 20px;
+        width: 55%;
+        @media #{$xs}{
+            width: 65%;
+            right: 0;
+        }
+      }
+    
+    .about-section.pt-200 {
+        @media #{$xs}{
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    }
+    
+    .about-section .section-title h2 br {
+        @media #{$xs}{
+            display: none;
+        }
+    }
+    
+    
+}

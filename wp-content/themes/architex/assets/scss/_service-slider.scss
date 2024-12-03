@@ -1,0 +1,61 @@
+/* Service Slider  */
+
+.service_slider_wrap {
+    background: $primary_color;
+}
+
+.slider_item {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    gap: 120px;
+    @media #{$xs}{
+        height: 100px;     
+    }
+    
+}
+
+.slider_item h5 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #fff;
+    @media #{$xs} {
+        font-size: 36px;
+    }
+}
+
+.slider_item h5.stroke {
+    -webkit-text-stroke: 0.8px #fff;
+    -webkit-text-fill-color: $primary_color;
+}
+
+.slider_item img {
+    display: inline-block;    
+    margin-right: 20px;
+}
+
+.slider_item{
+    animation: abotech-scroller 27s linear infinite;
+    will-change: transform;
+    white-space: nowrap;
+}
+
+@keyframes abotech-scroller {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes migency-scroller-reverse {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(100%, 0);
+  }
+}
