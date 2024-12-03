@@ -183,19 +183,6 @@ function _header_top_fields( $fields ) {
         ],
     ];
 
-    $fields[] = [
-        'type'     => 'switch',
-        'settings' => 'architex_header_lang',
-        'label'    => esc_html__( 'language On/Off', 'architex' ),
-        'section'  => 'header_top_setting',
-        'default'  => '0',
-        'priority' => 10,
-        'choices'  => [
-            'on'  => esc_html__( 'Enable', 'architex' ),
-            'off' => esc_html__( 'Disable', 'architex' ),
-        ],
-    ];
-
 
     // phone
     $fields[] = [
