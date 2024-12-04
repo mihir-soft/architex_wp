@@ -562,6 +562,7 @@ blockquote cite::before {
 .textwidget  img{
 	max-width: 100%;
 	height: auto;
+	margin-left: -20px;
 }
 #wp-calendar {
 	width: 100%;
@@ -684,6 +685,11 @@ blockquote cite::before {
 
 
 /*footer widget*/
+
+.footer-col-1 {
+    margin-right: 60px;
+}
+
 .footer__widget ul ul {
 	padding-left: 15px;
 	padding-top: 10px;
@@ -724,6 +730,11 @@ blockquote cite::before {
 .footer__widget .nice-select::after {
 	right: 18px;
 }
+
+.footer-col-4 ul li a {
+    display: block;
+}
+
 #wp-calendar {
 	width: 100%;
 }
